@@ -10,6 +10,10 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  // Lint is a separate CI step (non-blocking pending pre-existing debt); don't let it fail the build.
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
   // Add basePath configuration
   basePath: '',
   assetPrefix: '/',

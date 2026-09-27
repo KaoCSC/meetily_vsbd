@@ -11,7 +11,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 3. **Legacy Backend Archive**: the old Python/FastAPI, Docker, and standalone whisper-server backend under `backend/` is archived and unsupported
 
 ### Key Technology Stack
-- **Desktop App**: Tauri 2.x (Rust) + Next.js 14 + React 18
+- **Desktop App**: Tauri 2.x (Rust) + Next.js 15 + React 18
 - **Audio Processing**: Rust (cpal, whisper-rs, professional audio mixing)
 - **Transcription**: Whisper.cpp / whisper-rs and Parakeet paths in the Tauri app
 - **App API Surface**: Tauri commands and events, not a separate FastAPI service
